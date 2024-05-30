@@ -1,0 +1,115 @@
+/* Define the wavy gradient animations */
+@keyframes gradientWave1 {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes gradientWave2 {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes gradientWave3 {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Apply the wavy gradient animations to the boxes */
+.box1 {
+  background: linear-gradient(135deg, #a93068, #feb47b);
+  background-size: 200% 200%;
+  animation: gradientWave1 3.5s ease infinite;
+}
+
+.box2 {
+  background: linear-gradient(135deg, #775d93, #2575fc);
+  background-size: 200% 200%;
+  animation: gradientWave2 3.5s ease infinite;
+}
+
+.box3 {
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  background-size: 200% 200%;
+  animation: gradientWave3 3.5s ease infinite;
+}
+/* Keep the rest of your CSS styles as is */
+.home-first-row {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.home-box {
+  width: 33%;
+  box-shadow: 1px 4px 5px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.home-second-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.chart-box {
+  margin-top: 20px;
+  width: 68%;
+  border-radius: 20px;
+  height: 60vh;
+  background-color: rgb(231, 231, 231);
+}
+
+.recent-invoice {
+  margin-top: 20px;
+  width: 30%;
+  border-radius: 20px;
+  height: 60vh;
+  background-color: rgb(231, 231, 231);
+}
+
+.recent-invoice-header {
+  font-size: 30px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent-invoice-item:hover {
+  background-color: rgb(174, 174, 178);
+  border-radius: 10px;
+}
+
+.recent-invoice-item {
+  margin: 23px 36px 20px 36px;
+  padding: 10px 10px 10px 10px;
+  justify-content: space-between;
+  display: flex;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  border-radius: 10px;
+  flex-direction: row;
+}
