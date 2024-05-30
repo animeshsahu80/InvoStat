@@ -1,8 +1,3 @@
-# React + Vite
+# InvoStat
+A simple React application to create invoices by adding products with their prices and quantities. The application comes with dashboard and other CRUD operations where a user can dynamically update the product list and calculates the total price.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
